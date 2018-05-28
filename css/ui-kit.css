@@ -1,0 +1,27 @@
+/*================
+======FONT=======
+==============*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800');
+
+h1, h4{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+h1{
+	font-weight: 800;
+	font-size: 4em;
+	letter-spacing: 4px;
+	text-shadow: -2px -1px 39px #000000;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 2em;
+    text-shadow: -2px -1px 9px #000000a6;
+}
+
+/*================
+=====BOUTONS======
+==============*/
+
