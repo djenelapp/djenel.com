@@ -47,4 +47,14 @@ ul li a{
     box-shadow: 3px 6px 22px #00000094;
 }
 
+/*================
+======FOOTER=====
+==============*/
+/*MAIL*/
+footer{position: absolute; bottom: 20px; left:40px; color: rgba(255, 255, 255, 0.91); letter-spacing: 1px;}
+footer a, footer a:hover{color: rgba(255, 255, 255, 0.91); text-decoration: none}
+.footerContact{font-weight: 100;}
+.footerMail{font-weight: 500;}
+.footerLang{position: absolute; bottom: 20px; right:40px; color: rgba(255, 255, 255, 0.91); letter-spacing: 1px;}
 
+/*LANG*/
