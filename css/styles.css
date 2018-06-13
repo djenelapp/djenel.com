@@ -48,13 +48,29 @@ ul li a{
 }
 
 /*================
-======FOOTER=====
-==============*/
-/*MAIL*/
-footer{position: absolute; bottom: 20px; left:40px; color: rgba(255, 255, 255, 0.91); letter-spacing: 1px;}
+======FOOTER======
+==================*/
+footer{
+	position: fixed;
+	bottom: 0; color: rgba(255, 255, 255, 0.91);
+	letter-spacing: 1px;width: 100%;
+	padding: 0 40px;
+}
 footer a, footer a:hover{color: rgba(255, 255, 255, 0.91); text-decoration: none}
 .footerContact{font-weight: 100;}
-.footerMail{font-weight: 500;}
-.footerLang{position: absolute; bottom: 20px; right:40px; color: rgba(255, 255, 255, 0.91); letter-spacing: 1px;}
+.footerMail{ left: 40px; bottom: 10px; font-weight: 500;}
+.footerLang li{display: inline; width: 100%;}
 
-/*LANG*/
+.footerLang{
+	position: absolute;
+	margin-left: -50px;
+	bottom: 0;
+	width: 100px;
+	left:50%;
+	padding: 0;
+	color: rgba(255, 255, 255, 0.91);
+	letter-spacing: 1px;}
+
+.footerRsx li{display: inline; width: 20%;}
+
+.footerRsx{ color: rgba(255, 255, 255, 0.91); letter-spacing: 1px;}
