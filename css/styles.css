@@ -22,6 +22,7 @@
 ========NAV=======
 ==============*/
 nav{float: right; margin: 40px 40px 0 0}
+.navBurger{font-size: 1.5em; color: rgba(255, 255, 255, 0.91);}
 ul li{display: inline-block; margin: 5px}
 ul li a{
 	font-size: 1em;
@@ -36,15 +37,25 @@ ul li a{
 }
 
 #blcTitleindex {
-    width: 1000px;
+    width: 70%;
     border: 15px solid white;
 	position: absolute;
 	padding: 80px;
 	left: 50%;
 	top: 50%;
-	transform: translateY(-50%);
-	margin-left: -500px;
+	transform: translateY(-45%);
+	margin-left: -35%;
     box-shadow: 3px 6px 22px #00000094;
+}
+
+.navResponsive{
+	position: absolute;
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index:
 }
 
 /*================
