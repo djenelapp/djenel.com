@@ -21,11 +21,10 @@
 /*================
 ========NAV=======
 ==============*/
-nav{float: right; margin: 40px 40px 0 0}
-.navBurger{font-size: 1.5em; color: rgba(255, 255, 255, 0.91);}
-ul li{display: inline-block; margin: 5px}
+nav {float: right; margin: 40px 40px 0 0}
+.navBurger{font-size: 1.5em; color:rgba(255, 255, 255, 0.91);}
+.navStandard li{display: inline-block; margin: 5px;}
 ul li a{
-	font-size: 1em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	color: rgba(255, 255, 255, 0.91);
@@ -42,21 +41,52 @@ ul li a{
 	position: absolute;
 	padding: 80px;
 	left: 50%;
-	top: 50%;
-	transform: translateY(-45%);
+	top: 60%;
+	transform: translateY(-50%);
 	margin-left: -35%;
     box-shadow: 3px 6px 22px #00000094;
+	opacity:0;
 }
 
-.navResponsive{
-	position: absolute;
-	background-color: white;
-	height: 100vh;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index:
+ul.navResponsive.d-md-block.d-lg-none {
+    margin: 0;
 }
+.navResponsive {
+    position: absolute;
+    background-color: #00000075;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 4px 3px 6px #282828;
+    z-index: 900;
+	display: none!important;
+}
+
+.navResponsive li{
+	position: relative;
+	text-decoration: none;
+	list-style-type: none;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -420%);
+	margin-top: 30px;
+}
+
+.navResponsive li a{
+	color: white;
+}
+
+/*.blur{
+  position: abosolute;
+  background: rgba(255,255,255,0.5);
+  z-index: 1;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  top:0;
+}*/
 
 /*================
 ======FOOTER======
@@ -69,9 +99,8 @@ footer{
 }
 footer a, footer a:hover{color: rgba(255, 255, 255, 0.91); text-decoration: none}
 .footerContact{font-weight: 100;}
-.footerMail{ left: 40px; bottom: 10px; font-weight: 500;}
+ left: 40px; bottom: 10px; font-weight: 500;
 .footerLang li{display: inline; width: 100%;}
-
 .footerLang{
 	position: absolute;
 	margin-left: -50px;
@@ -83,5 +112,4 @@ footer a, footer a:hover{color: rgba(255, 255, 255, 0.91); text-decoration: none
 	letter-spacing: 1px;}
 
 .footerRsx li{display: inline; width: 20%;}
-
 .footerRsx{ color: rgba(255, 255, 255, 0.91); letter-spacing: 1px;}
