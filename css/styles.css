@@ -87,6 +87,10 @@ ul.navResponsive.d-md-block.d-lg-none {
   top:0;
 }
 
+.animOpacity-In{
+	display: none
+}
+
 /*================
 ======FOOTER======
 ==================*/
