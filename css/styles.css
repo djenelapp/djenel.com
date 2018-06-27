@@ -62,7 +62,6 @@ ul.navResponsive.d-md-block.d-lg-none {
     text-align: center;
     text-shadow: 4px 3px 6px #282828;
     z-index: 900;
-	display: none!important;
 }
 
 .navResponsive li{
@@ -79,14 +78,14 @@ ul.navResponsive.d-md-block.d-lg-none {
 	color: white;
 }
 
-/*.blur{
+.blur{
   position: abosolute;
-  background: rgba(255,255,255,0.5);
   z-index: 1;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  opacity: 0;
   top:0;
-}*/
+}
 
 /*================
 ======FOOTER======
