@@ -1,4 +1,5 @@
 ul{margin: 0;}
+.margeNone{margin: 0!important; padding: 0!important}
 /*==PAGE ACCUEIL==*/
 .bgIndex{
     height: 100vh;
@@ -25,8 +26,8 @@ ul{margin: 0;}
 nav {float: right; margin: 40px 40px 0 0}
 .navBurger{font-size: 1.5em; color:rgba(255, 255, 255, 0.91); cursor: pointer; width: 50px; height: 50px; position: absolute;right: 40px; top: 40px}
 .navClose{font-size: 1.5em; color:rgba(255, 255, 255, 0.91); cursor: pointer; width: 50px; height: 50px; position: absolute;right: 40px; top: 40px}
-.navStandard li{display: inline-block; margin: 5px;}
-ul li a{
+.navStandard li{display: inline-block; margin: 5px; color: white}
+ul li, ul li a{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	color: rgba(255, 255, 255, 0.91);
@@ -105,7 +106,6 @@ footer{
 }
 footer a, footer a:hover{color: rgba(255, 255, 255, 0.91); text-decoration: none}
 .footerContact{font-weight: 100;}
- left: 40px; bottom: 10px; font-weight: 500;
 .footerLang li{display: inline; width: 100%;}
 .footerLang{
 	position: absolute;
@@ -130,4 +130,17 @@ footer a, footer a:hover{color: rgba(255, 255, 255, 0.91); text-decoration: none
     width: 100%;
     top: 0;
     left: 0;
+    display: none;
+}
+
+#blockContact{
+    position: relative;
+    width:60%;
+    height: 80%;
+    left: 50%;
+    margin-left:-30%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    box-shadow: 2px 2px 2px #1b1e21;
 }
